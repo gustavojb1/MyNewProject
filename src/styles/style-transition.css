@@ -1,0 +1,17 @@
+.my-node-enter {
+  max-height: 0;
+  transition: max-height 1000ms ease-in-out; /* Tempo e função de transição ajustáveis */
+}
+
+.my-node-enter-active {
+  max-height: 1000px; /* ou o valor que você deseja */
+}
+
+.my-node-exit {
+  max-height: 1000px; /* ou o valor que você deseja */
+  transition: max-height 500ms ease-in-out; /* Tempo e função de transição ajustáveis */
+}
+
+.my-node-exit-active {
+  max-height: 0px;
+}
